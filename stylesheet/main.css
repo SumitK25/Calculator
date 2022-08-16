@@ -1,0 +1,102 @@
+/* Background image */
+body {
+	background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+}
+
+/* Chrome blue outline */
+button:focus {
+	outline: 0;
+}
+
+/* Common properties */
+.calulator,
+.display,
+.button {
+	cursor: pointer;
+}
+
+.display,
+.button {
+	font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 100;
+  border: 0;
+}
+
+/* Main div */
+.calculator {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 316px;
+	width: 228px;
+	background: #000000;
+}
+
+/* Display calculation */
+.display {
+	box-sizing: border-box;
+	display: block;
+	width: inherit;
+	margin-top: 28px;
+	padding: 0 10px;
+	background: #000000;
+  color: #FFFFFF;
+  font-size: 45px;
+  text-align: right;
+}
+
+/* All buttons */
+.button {
+	height: 47px;
+	width: 57px;
+	float: left;
+	padding: 2px 0 3px 0;
+	background: #E0E0E0;
+  font-size: 22px;
+}
+
+.button:active {
+	background: #BABABA;
+}
+
+/* Top row - Clear, sign, percentage */
+.top {
+	background: #D6D6D6;
+}
+
+.top:active {
+	background: #B0B0B0;
+}
+
+/* Right column - All operators */
+.operator {
+	background: #FF8C00;
+	color: #FFFFFF;
+	font-size: 28px;
+}
+
+.operator:active {
+	background: #B36200;
+}
+
+/* Decimal was too small */
+.decimal {
+	font-weight: 400;
+}
+
+/* Adding border radius */
+.calculator {
+	border-radius: 6px;
+}
+
+.equal {
+	border-bottom-right-radius: 6px;
+}
+
+.double {
+	width: 114px;
+	border-bottom-left-radius: 6px;
+}
